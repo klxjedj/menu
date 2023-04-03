@@ -1,0 +1,43 @@
+.right {
+    position: relative;
+    width: 6vh;
+    height: 12vh;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+.rightcircle {
+    width: 12vh;
+    height: 12vh;
+    border: 1vh solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 1vh solid #aaa;
+    border-right: 1vh solid #aaa;
+    border-bottom: 1vh solid #ccc;
+    border-left: 1vh solid #ccc;
+}
+
+.left {
+    width: 6vh;
+    height: 12vh;
+    position: relative;
+    overflow: hidden;
+    background: #eee;
+}
+
+.leftcircle {
+    width: 12vh;
+    height: 12vh;
+    border: 1vh solid transparent;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    border-bottom: 1vh solid #aaa;
+    border-left: 1vh solid #aaa;
+    border-top: 1vh solid #ccc;
+    border-right: 1vh solid #ccc;
+}
